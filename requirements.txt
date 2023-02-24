@@ -1,0 +1,17 @@
+playwright
+pytest
+pytest-playwright
+pytest-factoryboy
+pytest-cov
+pytest-rerunfailures
+playwright-stealth
+pytest-playwright
+pytest-playwright-snapshot
+pytest-html
+pytest-html-reporter
+pytest-metadata
+pytest-order
+anyio
+pytest-asyncio
+pytest-tornasync
+pytest-trio
