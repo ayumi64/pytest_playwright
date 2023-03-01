@@ -3,7 +3,7 @@ from playwright.async_api import async_playwright
 from playwright.async_api._generated import ElementHandle
 from pytest import fixture
 import time
-from pages.search.search_bing import BingSearch
+from pageobject.search.search_bing import BingSearch
 from playwright.sync_api import Page
 
 base_url: str = "https://cn.bing.com"
@@ -22,7 +22,7 @@ class TestBase:
             header_text: str = page.title()
             
             print(header_text)
-            page.screenshot(path=f'example-{timenow}.png')
+            page.screenshot(path=f'screenshot/{timenow}.png')
             assert "playwright" in header_text            
     
     
@@ -39,7 +39,7 @@ class TestBase:
         header_text: str = page.title()
         
         print(header_text)
-        page.screenshot(path=f'example-{timenow}.png')
+        page.screenshot(path=f'screenshot/example-{timenow}.png')
         assert "playwright" in header_text
 
             
@@ -69,5 +69,5 @@ class TestBase:
 
         header_text: str = page.title()
         print(header_text)
-        page.screenshot(path=f'example-{timenow}.png')
+        page.screenshot(path=f'screenshot/example-{timenow}.png')
         assert "chatGPT" in header_text

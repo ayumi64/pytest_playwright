@@ -5,7 +5,6 @@ pytest-factoryboy
 pytest-cov
 pytest-rerunfailures
 playwright-stealth
-pytest-playwright
 pytest-playwright-snapshot
 pytest-html
 pytest-html-reporter
@@ -15,3 +14,9 @@ anyio
 pytest-asyncio
 pytest-tornasync
 pytest-trio
+
+# screenplay
+screenpy
+screenpy[playwright]
+screenpy[allure]
+pytest

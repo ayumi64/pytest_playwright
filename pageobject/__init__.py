@@ -1,0 +1,1 @@
+from pageobject.search.search_bing import BingSearch

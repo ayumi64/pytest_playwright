@@ -2,7 +2,7 @@ import pytest
 from playwright.sync_api import Page
 
 from credentials import user
-from pages import Books, Login, Profile
+from pageobject import Books, Login, Profile
 
 
 @pytest.mark.authentication

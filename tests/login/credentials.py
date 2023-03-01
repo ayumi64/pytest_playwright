@@ -1,4 +1,4 @@
 user = {
-    'user': 'sonic',
-    'password': '123'
+    'userName': 'sonic',
+    'passWord': '123'
 }

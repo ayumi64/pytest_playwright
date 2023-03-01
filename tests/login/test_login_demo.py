@@ -3,7 +3,7 @@ from playwright.async_api import async_playwright
 from playwright.async_api._generated import ElementHandle
 from pytest import fixture
 import time
-from pages.login.login_demo import Login
+from pageobject.login.login_demo import Login
 
 base_url: str = "https://cn.bing.com"
 
